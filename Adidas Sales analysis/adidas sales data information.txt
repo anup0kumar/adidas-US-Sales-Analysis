@@ -1,0 +1,50 @@
+/************* 1. INTRODUCTION **********\
+A. The Dataset contains details of the adidas product sales in USA across different cities in 2020 and 2021 .
+It consist of how many units sold , operating profit, operating margin in different adidas product category and the sale method type i.e whether it is sold online , in-store or through outlets.
+
+B. The Objective of the Analysis is to find insight from the dataset so that the company Know their strength, weakness , opportunity and threats and the potential growth that can be achieved in upcoming years.
+
+C. The four Main BI questions consist of 
+i> What Happened:- The sales increase 4 times in 2021 in comparison to 2020
+ii> Why did it Happened:- It may be because of corona in 2020 was at peak in USA daily approximately 2 lakhs cases were registered for corona positive. The government ordered is to close all kind of business except medical and Grocery shops were opened only.
+iii> What Will Happen:- As corona affected whole world due to lockdown the sales may not be as expected in 2020 but in 2021 as many country government removed the barrier for market it went up.
+iv> How can we make it Happen:- As the government removed the barrier it helped the company to restart the sales of their product therefore the sales went up exceptionally in 2021 as compared to 2020.
+
+
+
+/************** Data Preprocessing And Cleaning *********\
+
+A. Data Cleaning :- Here all the data are correct but the column of total sales values is 10 times more than actual total sales values as
+	Total Sales = Unit Price * Unit Sold
+Like that operational profit column is also corrected in the same way, no columns have null value only first 4 rows should be removed as it does not contains any values. The data type of every column is also correct.
+
+B. The Calculated Columns :- End of month column to keep track of operation margin at the end of the month.
+
+/*************** 3. DATA MODELING ****************\
+
+A. 
+B.
+C. Four measures created 
+i> Avg Operation margin:- denotes the average of operational margin throughout the year.
+ii> Avg Unit Price :- Represent avg price of a product as the same product have different prices .
+iii> Color Switch Rev :- Used to color the operational margin that is low than 0.4 as red else green present in page 2 .
+iv> Target Operational Margin:- In order to track how many months the target of operational margin is achieved.
+
+
+/********* DASHBOARD **************\
+
+The company total sales in 2021 is almost 4X than it was in 2020. 
+It was because of the following retailers:-
+
+1. Sports Direct sold 10 times unit sold in 2020.
+2. Foot Locker almost 3times.
+3. West Gear almost 2.3times
+4. Amazon(New Retailer in 2021) sold 200K units.
+The company perform outstanding in west region in both 2020 and 2021 .
+IN 2021 company tried to increases sales in Midwest region compared to previous year and also able to achieve a great success in it.
+in 2020 sum of total sales in Midwest region was only $7.28 but in 2021 it was $128.42 which is approximately 17 times than it was in 2020.
+
+Through slicer for product , region , state we can get the details of the performance of the states and region in details.
+
+/************* CONCLUSION *************\
+As the company operational margin through online is 46% which is highest in all the provided sales method so company should focus to sell the products online and make better platform and services for online customers.
